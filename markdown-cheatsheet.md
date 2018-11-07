@@ -35,4 +35,14 @@
 | Phone     |   12 USD |  12  |
 | Pipe      |    1 USD | 234  |
 
-$x = 2$
+
+```flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
